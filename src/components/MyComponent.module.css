@@ -1,0 +1,1169 @@
+.Dashboard {
+    width: 1440px;
+    height: 900px;
+    position: relative;
+    background: #101010;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .Content {
+    width: 1060px;
+    height: 860px;
+    left: 360px;
+    top: 20px;
+    position: absolute;
+  }
+  
+  .BackgroundContent {
+    width: 1060px;
+    height: 860px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+  }
+  
+  .RightContent {
+    width: 350px;
+    height: 860px;
+    left: 710px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .RectangleCopy2 {
+    width: 350px;
+    height: 860px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #F9FAFC;
+  }
+  
+  .BoxTips {
+    width: 250px;
+    height: 292px;
+    left: 50px;
+    top: 508px;
+    position: absolute;
+  }
+  
+  .BoxTips .Rectangle {
+    width: 250px;
+    height: 258px;
+    left: 0;
+    top: 34px;
+    position: absolute;
+    background: #EDF0F6;
+    border-radius: 15px;
+  }
+  
+  .Illustration {
+    position: absolute;
+  }
+  
+  .Illustration .Group115,
+  .Illustration .Group113,
+  .Illustration .Group114,
+  .Illustration .Group112,
+  .Illustration .Rectangle50,
+  .Illustration .Rectangle37,
+  .Illustration .Rectangle37Copy {
+    position: absolute;
+  }
+  
+  .Illustration .Group115 {
+    width: 52.53px;
+    height: 73.29px;
+    left: 0;
+    top: 0;
+  }
+  
+  .Illustration .Group113 {
+    width: 26px;
+    height: 73px;
+    left: 23.24px;
+    top: 0;
+  }
+  
+  .Illustration .Path197 {
+    width: 25.23px;
+    height: 34.21px;
+    left: 0;
+    top: 0.12px;
+    position: absolute;
+    background: #C5DDF0;
+  }
+  
+  .Illustration .Path193 {
+    width: 15.02px;
+    height: 64.03px;
+    left: 3.22px;
+    top: 8.25px;
+    position: absolute;
+    background: #7297C4;
+  }
+  
+  .Illustration .Group114 {
+    width: 27px;
+    height: 50px;
+    left: 0;
+    top: 22.52px;
+  }
+  
+  .Illustration .Path198 {
+    width: 26.37px;
+    height: 31.40px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #C5DDF0;
+  }
+  
+  .Illustration .Path194 {
+    width: 13.88px;
+    height: 39.96px;
+    left: 8.90px;
+    top: 9.80px;
+    position: absolute;
+    background: #7297C4;
+  }
+  
+  .Illustration .Group112 {
+    width: 22px;
+    height: 36px;
+    left: 30.53px;
+    top: 37.29px;
+  }
+  
+  .Illustration .Path196 {
+    width: 20.63px;
+    height: 22.87px;
+    left: 1.10px;
+    top: 0;
+    position: absolute;
+    background: #C5DDF0;
+  }
+  
+  .Illustration .Path195 {
+    width: 14.61px;
+    height: 29.48px;
+    left: 0.73px;
+    top: 5.56px;
+    position: absolute;
+    background: #7297C4;
+  }
+  
+  .Illustration .Rectangle50 {
+    width: 29.37px;
+    height: 21.19px;
+    left: 12.73px;
+    top: 68.93px;
+  }
+  
+  .Illustration .Rectangle50 .Rectangle {
+    width: 29.37px;
+    height: 21.19px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: linear-gradient(219deg, #CBDDEE 0%, #B8D0E6 100%, #B8D0E6 100%);
+  }
+  
+  .Illustration .Rectangle50 .Group119 {
+    width: 32px;
+    height: 5px;
+    left: -1.19px;
+    top: 3.77px;
+    position: absolute;
+  }
+  
+  .Illustration .Rectangle50 .Group119 .Path180 {
+    width: 31.24px;
+    height: 1px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #7297C4;
+  }
+  
+  .Illustration .Rectangle50 .Group119 .Path180:last-child {
+    top: 3.65px;
+  }
+  
+  .Illustration .Rectangle37 {
+    width: 84.15px;
+    height: 42.07px;
+    left: 0;
+    top: 30.36px;
+  }
+  
+  .Illustration .Rectangle37 .Rectangle {
+    width: 84.15px;
+    height: 42.07px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: linear-gradient(298deg, #FFB966 0%, #FF895F 100%, #FF895F 100%);
+  }
+  
+  .Illustration .Rectangle37 .Path166 {
+    width: 19.97px;
+    height: 1.94px;
+    left: 44.34px;
+    top: 17.11px;
+    position: absolute;
+    background: white;
+  }
+  
+  .Illustration .Rectangle37 .Oval {
+    width: 32.37px;
+    height: 32.37px;
+    left: -14.33px;
+    top: 24.60px;
+    position: absolute;
+  }
+  
+  .Illustration .Rectangle37 .Rectangle:last-child {
+    width: 96.80px;
+    height: 23.30px;
+    left: 33.66px;
+    top: 59.40px;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+    opacity: 0.30;
+    background: white;
+  }
+  
+  .Illustration .Rectangle37Copy {
+    width: 60.94px;
+    height: 30.47px;
+    left: 11.90px;
+    top: 0;
+  }
+  
+  .Illustration .Rectangle37Copy .Rectangle {
+    width: 60.94px;
+    height: 30.47px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: linear-gradient(315deg, #85D4FF 0%, #51A4FF 100%);
+  }
+  
+  .Illustration .Rectangle37Copy .Path166 {
+    width: 15.66px;
+    height: 0.65px;
+    left: 32.16px;
+    top: 14.72px;
+    position: absolute;
+    border: 1.95px #0069D5 solid;
+  }
+  
+  .Illustration .Rectangle37Copy .CombinedShape {
+    width: 11.72px;
+    height: 6.51px;
+    left: 3.13px;
+    top: 21.42px;
+    position: absolute;
+    opacity: 0.30;
+  }
+  
+  .Illustration .Rectangle37Copy .Path182 {
+    width: 60.94px;
+    height: 1px;
+    left: 0;
+    top: 6.27px;
+    position: absolute;
+    background: #0069D5;
+  }
+  
+  .Button {
+    position: absolute;
+  }
+  
+  .Button .Rectangle {
+    width: 200px;
+    height: 45px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #101010;
+    border-radius: 8px;
+  }
+  
+  .Button .ViewTips {
+    left: 62px;
+    top: 13px;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    letter-spacing: 1.50px;
+    word-wrap: break-word;
+  }
+  
+  .EiusmodTemporIncid {
+    width: 200px;
+    left: 25px;
+    top: 139px;
+    position: absolute;
+    opacity: 0.70;
+    color: #404852;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.43px;
+    word-wrap: break-word;
+  }
+  
+  .SaveMoreMoney {
+    left: 25px;
+    top: 111px;
+    position: absolute;
+    color: #273240;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    letter-spacing: 0.34px;
+    word-wrap: break-word;
+  }
+  
+  .Stats {
+    position: absolute;
+  }
+  
+  .Stats .WhereYourMoneyGo {
+    left: 0;
+    top: 0;
+    position: absolute;
+    color: #262A41;
+    font-size: 20px;
+    font-family: 'AvenirNext';
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.33px;
+    word-wrap: break-word;
+  }
+  
+  .Stats .Stats {
+    position: absolute;
+  }
+  
+  .Stats .Stats .FoodAndDrinks,
+  .Stats .Stats .Shopping,
+  .Stats .Stats .Housing,
+  .Stats .Stats .Transportation,
+  .Stats .Stats .Vehicle {
+    left: 0;
+    top: 0;
+    position: absolute;
+    color: #273240;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.46px;
+    word-wrap: break-word;
+  }
+  
+  .Stats .Stats .Rectangle {
+    width: 250px;
+    height: 5px;
+    left: 0;
+    top: 32px;
+    position: absolute;
+    background: #ECEFF5;
+    border-radius: 5px;
+  }
+  
+  .Stats .Stats .RectangleCopy {
+    width: 70px;
+    height: 5px;
+    left: 0;
+    top: 32px;
+    position: absolute;
+    background: #31BA96;
+    border-radius: 5px;
+  }
+  
+  .Stats .Stats .400,
+  .Stats .Stats .378200,
+  .Stats .Stats .500,
+  .Stats .Stats .700,
+  .Stats .Stats .000 {
+    left: 197px;
+    top: 0;
+    position: absolute;
+    text-align: right;
+    color: #273240;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.46px;
+    word-wrap: break-word;
+  }
+  
+  .Stats .Stats .400 {
+    left: 197px;
+  }
+  
+  .Stats .Stats .378200 {
+    left: 189px;
+  }
+  
+  .Stats .Stats .500 {
+    left: 196px;
+  }
+  
+  .Stats .Stats .700 {
+    left: 197px;
+  }
+  
+  .Stats .Stats .000 {
+    left: 196px;
+  }
+  
+  .MainContent {
+    width: 510px;
+    height: 741px;
+    left: 100px;
+    top: 60px;
+    position: absolute;
+  }
+  
+  .MainContent .Users {
+    width: 122.96px;
+    height: 31.20px;
+    left: 387px;
+    top: 13px;
+    position: absolute;
+  }
+  
+  .MainContent .Users .Group9,
+  .MainContent .Users .Group3Copy6,
+  .MainContent .Users .Group3Copy2,
+  .MainContent .Users .Group3,
+  .MainContent .Users .Group3Copy7,
+  .MainContent .Users .Group15 {
+    position: absolute;
+  }
+  
+  .MainContent .Users .Group9 {
+    width: 87.20px;
+    height: 31.20px;
+    left: 0;
+    top: 0;
+  }
+  
+  .MainContent .Users .Group3Copy6 {
+    width: 31.14px;
+    height: 31.20px;
+    left: 56.06px;
+    top: 0;
+  }
+  
+  .MainContent .Users .Group3Copy6 .Rectangle3 {
+    width: 31.14px;
+    height: 31.20px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #D8D8D8;
+    border-radius: 208px;
+    border: 2.08px white solid;
+  }
+  
+  .MainContent .Users .Group3Copy6 .Bitmap,
+  .MainContent .Users .Group3Copy2 .Bitmap,
+  .MainContent .Users .Group3 .Bitmap {
+    position: absolute;
+  }
+  
+  .MainContent .Users .Group3Copy6 .Bitmap {
+    width: 55.75px;
+    height: 83.57px;
+    left: -12.07px;
+    top: -13.20px;
+  }
+  
+  .MainContent .Users .Group3Copy2 {
+    width: 31.14px;
+    height: 31.20px;
+    left: 28.03px;
+    top: 0;
+  }
+  
+  .MainContent .Users .Group3Copy2 .Rectangle3 {
+    width: 31.14px;
+    height: 31.20px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #D8D8D8;
+    border-radius: 208px;
+    border: 2.08px white solid;
+  }
+  
+  .MainContent .Users .Group3Copy2 .Bitmap {
+    width: 31.14px;
+    height: 31.20px;
+    left: 0;
+    top: 0;
+  }
+  
+  .MainContent .Users .Group3 {
+    width: 31.14px;
+    height: 31.20px;
+    left: 0;
+    top: 0;
+  }
+  
+  .MainContent .Users .Group3 .Rectangle3 {
+    width: 31.14px;
+    height: 31.20px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #D8D8D8;
+    border-radius: 208px;
+    border: 2.08px white solid;
+  }
+  
+  .MainContent .Users .Group3 .Bitmap {
+    width: 69.87px;
+    height: 46.20px;
+    left: -17.27px;
+    top: 0.08px;
+  }
+  
+  .MainContent .Users .Group3Copy7 {
+    width: 23.96px;
+    height: 24px;
+    left: 99px;
+    top: 4px;
+  }
+  
+  .MainContent .Users .Group3Copy7 .Rectangle3 {
+    width: 23.96px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    border-radius: 260px;
+    border: 2px #D2DCE8 solid;
+  }
+  
+  .MainContent .Users .Group15 {
+    width: 8.86px;
+    height: 8.86px;
+    left: 7.57px;
+    top: 8px;
+  }
+  
+  .MainContent .Users .Group15 .Path4,
+  .MainContent .Users .Group15 .Path4Copy {
+    position: absolute;
+  }
+  
+  .MainContent .Users .Group15 .Path4 {
+    width: 0.37px;
+    height: 8.86px;
+    left: 4.25px;
+    top: 0;
+    border: 2px #D2DCE8 solid;
+  }
+  
+  .MainContent .Users .Group15 .Path4Copy {
+    width: 1px;
+    height: 8.86px;
+    left: 0;
+    top: 4.93px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    border: 2px #D2DCE8 solid;
+  }
+  
+  .MainContent .Title {
+    width: 195px;
+    height: 84px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .MainContent .Title .Expenses {
+    left: 0;
+    top: 0;
+    position: absolute;
+    color: #262A41;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.67px;
+    word-wrap: break-word;
+  }
+  
+  .MainContent .Title .25March2020 {
+    left: 0;
+    top: 60px;
+    position: absolute;
+    opacity: 0.50;
+    color: #101010;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 0.34px;
+    word-wrap: break-word;
+  }
+  
+  .MainContent .Stats {
+    width: 510px;
+    height: 60px;
+    left: 0;
+    top: 130px;
+    position: absolute;
+  }
+  
+  .MainContent .Stats .Rectangle,
+  .MainContent .Stats .RectangleCopy3,
+  .MainContent .Stats .RectangleCopy4,
+  .MainContent .Stats .RectangleCopy8,
+  .MainContent .Stats .RectangleCopy7,
+  .MainContent .Stats .RectangleCopy6,
+  .MainContent .Stats .RectangleCopy9,
+  .MainContent .Stats .RectangleCopy5,
+  .MainContent .Stats .RectangleCopy17,
+  .MainContent .Stats .RectangleCopy16,
+  .MainContent .Stats .RectangleCopy15,
+  .MainContent .Stats .RectangleCopy14,
+  .MainContent .Stats .RectangleCopy13,
+  .MainContent .Stats .RectangleCopy12,
+  .MainContent .Stats .RectangleCopy11,
+  .MainContent .Stats .RectangleCopy10,
+  .MainContent .Stats .RectangleCopy25,
+  .MainContent .Stats .RectangleCopy24,
+  .MainContent .Stats .RectangleCopy23,
+  .MainContent .Stats .RectangleCopy22,
+  .MainContent .Stats .RectangleCopy21,
+  .MainContent .Stats .RectangleCopy20,
+  .MainContent .Stats .RectangleCopy18 {
+    position: absolute;
+  }
+  
+  .MainContent .Stats .Rectangle {
+    width: 16px;
+    height: 35px;
+    left: 0;
+    top: 25px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy3 {
+    width: 16px;
+    height: 52px;
+    left: 22px;
+    top: 8px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy4 {
+    width: 16px;
+    height: 44px;
+    left: 45px;
+    top: 16px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy8 {
+    width: 16px;
+    height: 35px;
+    left: 90px;
+    top: 25px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy7 {
+    width: 16px;
+    height: 30px;
+    left: 112px;
+    top: 30px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy6 {
+    width: 16px;
+    height: 44px;
+    left: 135px;
+    top: 16px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy9 {
+    width: 16px;
+    height: 27px;
+    left: 157px;
+    top: 33px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy5 {
+    width: 16px;
+    height: 27px;
+    left: 67px;
+    top: 33px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy17 {
+    width: 16px;
+    height: 35px;
+    left: 180px;
+    top: 25px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy16 {
+    width: 16px;
+    height: 52px;
+    left: 202px;
+    top: 8px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy15 {
+    width: 16px;
+    height: 44px;
+    left: 225px;
+    top: 16px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy14 {
+    width: 16px;
+    height: 35px;
+    left: 269px;
+    top: 25px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy13 {
+    width: 16px;
+    height: 30px;
+    left: 292px;
+    top: 30px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy12 {
+    width: 16px;
+    height: 44px;
+    left: 314px;
+    top: 16px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy11 {
+    width: 16px;
+    height: 27px;
+    left: 337px;
+    top: 33px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy10 {
+    width: 16px;
+    height: 27px;
+    left: 247px;
+    top: 33px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy25 {
+    width: 16px;
+    height: 35px;
+    left: 359px;
+    top: 25px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy24 {
+    width: 16px;
+    height: 52px;
+    left: 382px;
+    top: 8px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy23 {
+    width: 16px;
+    height: 44px;
+    left: 404px;
+    top: 16px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy22 {
+    width: 16px;
+    height: 35px;
+    left: 449px;
+    top: 25px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy21 {
+    width: 16px;
+    height: 60px;
+    left: 472px;
+    top: 0;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy20 {
+    width: 16px;
+    height: 44px;
+    left: 494px;
+    top: 16px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .MainContent .Stats .RectangleCopy18 {
+    width: 16px;
+    height: 27px;
+    left: 427px;
+    top: 33px;
+    opacity: 0.20;
+    background: #157AFF;
+  }
+  
+  .Date {
+    position: absolute;
+  }
+  
+  .Date .Today,
+  .Date .Monday23March202 {
+    left: 0;
+    top: 0;
+    position: absolute;
+    color: #262A41;
+    font-size: 18px;
+    font-family: 'AvenirNext';
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.30px;
+    word-wrap: break-word;
+  }
+  
+  .Date .Monday23March202 {
+    left: 0;
+    top: 0;
+  }
+  
+  .Date .Group3 {
+    width: 25px;
+    height: 5px;
+    left: 475px;
+    top: 13px;
+    position: absolute;
+  }
+  
+  .Date .Group3 .Oval,
+  .Date .Group3 .OvalCopy3,
+  .Date .Group3 .OvalCopy5 {
+    width: 5px;
+    height: 5px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #D8D8D8;
+    border-radius: 9999px;
+  }
+  
+  .Date .Group3 .OvalCopy3 {
+    left: 10px;
+  }
+  
+  .Date .Group3 .OvalCopy5 {
+    left: 20px;
+  }
+  
+  .Date .Path {
+    width: 500px;
+    height: 1px;
+    left: 0;
+    top: 37.50px;
+    position: absolute;
+    border: 0.50px #DEDEDE solid;
+  }
+  
+  .List {
+    position: absolute;
+  }
+  
+  .List .Grocery,
+  .List .Transportation,
+  .List .Housing,
+  .List .FoodAndDrink,
+  .List .Entertainment {
+    left: 65px;
+    top: 0;
+    position: absolute;
+    color: #273240;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    letter-spacing: 0.34px;
+    word-wrap: break-word;
+  }
+  
+  .List .12PmBelanjaDi,
+  .List .12PmNaikBusU,
+  .List .12PmBayarList,
+  .List .12PmMakanStea,
+  .List .12PmNontonBio {
+    left: 65px;
+    top: 28px;
+    position: absolute;
+    opacity: 0.50;
+    color: #404852;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+  }
+  
+  .List .Group4 {
+    width: 48px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .List .Group4 .OvalCopy2 {
+    width: 48px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #32A7E2;
+    border-radius: 9999px;
+  }
+  
+  .List .Group4 .Shape,
+  .List .Group4 .Shape img {
+    width: 16px;
+    height: 16px;
+    left: 16px;
+    top: 16px;
+    position: absolute;
+  }
+  
+  .List .326800,
+  .List .15000,
+  .List .185750,
+  .List .156000,
+  .List .35200 {
+    left: 424px;
+    top: 0;
+    position: absolute;
+    text-align: right;
+    color: #273240;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    letter-spacing: 0.34px;
+    word-wrap: break-word;
+  }
+  
+  .List .326800 {
+    left: 424px;
+  }
+  
+  .List .15000 {
+    left: 437px;
+  }
+  
+  .List .185750 {
+    left: 428px;
+  }
+  
+  .List .156000 {
+    left: 426px;
+  }
+  
+  .List .35200 {
+    left: 434px;
+  }
+  
+  .Sidebar {
+    width: 197px;
+    height: 651px;
+    left: 80px;
+    top: 65px;
+    position: absolute;
+  }
+  
+  .Sidebar .Menu {
+    width: 142px;
+    height: 360px;
+    left: 0;
+    top: 291px;
+    position: absolute;
+  }
+  
+  .Sidebar .Menu .Expenses,
+  .Sidebar .Menu .Dashboard,
+  .Sidebar .Menu .Wallets,
+  .Sidebar .Menu .Summary,
+  .Sidebar .Menu .Accounts,
+  .Sidebar .Menu .Settings {
+    left: 0;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 35px;
+    word-wrap: break-word;
+  }
+  
+  .Sidebar .Menu .Expenses {
+    top: 65px;
+  }
+  
+  .Sidebar .Menu .Dashboard {
+    top: 0;
+    opacity: 0.50;
+  }
+  
+  .Sidebar .Menu .Wallets {
+    top: 130px;
+    opacity: 0.50;
+  }
+  
+  .Sidebar .Menu .Summary {
+    top: 195px;
+    opacity: 0.50;
+  }
+  
+  .Sidebar .Menu .Accounts {
+    top: 260px;
+    opacity: 0.50;
+  }
+  
+  .Sidebar .Menu .Settings {
+    top: 325px;
+    opacity: 0.50;
+  }
+  
+  .Sidebar .Samantha {
+    left: 0;
+    top: 107px;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 35px;
+    word-wrap: break-word;
+  }
+  
+  .Sidebar .SamanthaEmailCom {
+    left: 0;
+    top: 147px;
+    position: absolute;
+    opacity: 0.60;
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+  }
+  
+  .Sidebar .Profile {
+    width: 72px;
+    height: 72px;
+    left: 0;
+    top: 15px;
+    position: absolute;
+  }
+  
+  .Sidebar .Profile .Rectangle {
+    width: 72px;
+    height: 72px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    border-radius: 13px;
+  }
+  
+  .Sidebar .Profile .Bitmap {
+    width: 105px;
+    height: 157px;
+    left: -16px;
+    top: -17px;
+    position: absolute;
+  }
+  
+  .Sidebar .Notifications {
+    width: 29px;
+    height: 29px;
+    left: 57px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .Sidebar .Notifications .Oval {
+    width: 29px;
+    height: 29px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #DC3434;
+    border-radius: 9999px;
+  }
+  
+  .Sidebar .Notifications div {
+    left: 10px;
+    top: 4px;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    letter-spacing: 0.22px;
+    word-wrap: break-word;
+  }
+  

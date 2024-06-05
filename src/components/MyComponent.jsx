@@ -1,4 +1,6 @@
 import * as React from "react";
+import styles from './MyComponent.module.css';
+
 
 function MyComponent() {
   return (
